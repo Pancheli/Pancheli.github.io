@@ -124,3 +124,27 @@ footer {
 .wrapper .linkedin:hover .tooltip:before {
     background: #0e76a8;
 }
+
+
+/*Saitama coffe*/
+
+.saitama-logo {
+    width: 60px;
+}
+
+.nunito {
+    font-family: 'Nunito', sans-serif;
+}
+
+.bg-bisque {
+    background: bisque;
+}
+
+.nav-item .nav-link {
+    color: #000;
+}
+
+.nav-item .nav-link:hover {
+    text-decoration: underline;
+    color: rgb(233, 185, 125);
+}
