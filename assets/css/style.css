@@ -126,10 +126,11 @@ footer {
 }
 
 
-/*Saitama coffe*/
+/*Saitama coffe style */
 
 .saitama-logo {
     width: 60px;
+    border-radius: 50%;
 }
 
 .nunito {
@@ -147,4 +148,34 @@ footer {
 .nav-item .nav-link:hover {
     text-decoration: underline;
     color: rgb(233, 185, 125);
+}
+
+.navbar .navbar-toggler {
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(69, 64, 64);
+}
+
+.navbar-toggler-icon {
+    background: url(/assets/img/bars-solid.svg);
+}
+
+.hero-section {
+    background: url(/assets/img/home-saitama.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-section .content-hero img {
+    width: 219px;
+    border-radius: 50%;
+    margin-right: 499px;
+}
+
+.merienda {
+    font-family: 'Merienda', cursive;
+}
+
+.hero-section .content-hero p {
+    color: #241403;
 }
