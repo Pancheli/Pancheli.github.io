@@ -89,3 +89,19 @@ form .btn-reserva {
     border: none;
     border-radius: 25px;
 }
+
+form .btn-reserva:hover {
+    background-color: #351d03;
+}
+
+footer {
+    padding: 1rem 4rem;
+}
+
+.footer {
+    border-top: 1.5px solid #351d03;
+}
+
+.footer span {
+    color: rgb(29, 42, 164);
+}
