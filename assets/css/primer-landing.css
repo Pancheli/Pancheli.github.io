@@ -1,5 +1,10 @@
 body {
     font-family: 'Nunito', sans-serif;
+    background: bisque;
+}
+
+.navbar {
+    height: 70px;
 }
 
 .saitama-logo {
@@ -36,6 +41,10 @@ body {
     background-position: center;
 }
 
+.hero-section section {
+    padding: 3rem 2rem;
+}
+
 .hero-section .content-hero img {
     width: 219px;
     border-radius: 50%;
@@ -55,5 +64,9 @@ body {
 }
 
 .menu-coffee-container img {
-    width: 199px;
+    width: 189px;
+}
+
+.menu-coffee-container h3 {
+    font-size: 19px;
 }
