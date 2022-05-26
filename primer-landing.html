@@ -33,7 +33,7 @@
                         <a class="nav-link fw-light" href="#menu">menú</a>
                     </li>
                     <li class="nav-item me-3">
-                        <a class="nav-link fw-light" href="#">reserva</a>
+                        <a class="nav-link fw-light" href="#reserva">reserva</a>
                     </li>
                     <li class="nav-item me-3">
                         <a class="nav-link fw-light" href="#">contacto</a>
@@ -47,7 +47,7 @@
         <div class="hero-section pt-5">
             <section id="about">
                 <div class="content-hero container-fluid text-center py-4">
-                    <img class="p-4" src="/assets/img/saitama-coffee.jpg" alt="Logo Saitama Coffe">
+                    <img class="pt-4" src="/assets/img/saitama-coffee.jpg" alt="Logo Saitama Coffe">
                     <p class="merienda fw-bold mt-4 d-flex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, omnis! <br> Non fuga, eius id voluptatum, sint asperiores dolorum molestiae adipisci sit itaque doloremque nulla rem minus? <br> Distinctio cumque suscipit ea?</p>
                 </div>
             </section>
@@ -79,6 +79,25 @@
                     <img class="pb-3" src="/assets/img/saitama-menu-5.png" alt="">
                     <h3 class="fw-bold merienda">Café negro</h3>
                 </div>
+            </div>
+        </section>
+
+        <section id="reserva">
+            <div class="heading-reserva text-center">
+                <img class="heading-coffee pb-3" src="/assets/img/heading-saitama.png" alt="">
+                <h3 class="merienda fw-bold fs-4">Reservación</h3>
+            </div>
+            <div class=" reserva d-flex align-middle">
+                <div class="image-reserva">
+                    <img src="/assets/img/img-reserva-saitama.svg" alt="">
+                </div>
+                <form class="align-self-center me-5" action="" method="post">
+                    <h3 class="merienda fw-bold fs-4 mb-4">Reserva una mesa!</h3>
+                    <input class="form-control mb-4 border border-dark border-2" type="text" name="name" required="" maxlength="20" placeholder="Tu nombre">
+                    <input class="form-control mb-4 border border-dark border-2" type="number" name="number" required="" maxlength="20" placeholder="Tu número" min="0" max="999999999">
+                    <input class="form-control mb-4 border border-dark border-2" type="number" name="number" required="" maxlength="20" placeholder="Cuántas personas" min="0" max="999999999">
+                    <input class="btn-reserva text-white fs-4 py-2 px-4" type="submit" name="send" value="Reservar!">
+                </form>
             </div>
         </section>
     </main>
