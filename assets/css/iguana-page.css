@@ -1,0 +1,17 @@
+body {
+    background: rgb(22, 21, 21);
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    background: rgb(0, 0, 0);
+}
+
+.header-iguana h1 {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.iguana-header img {
+    width: 100%;
+}
