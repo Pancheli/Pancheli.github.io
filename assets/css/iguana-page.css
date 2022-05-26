@@ -1,10 +1,10 @@
 body {
-    background: rgb(22, 21, 21);
+    background: rgb(0, 0, 0);
     font-family: 'Raleway', sans-serif;
 }
 
 header {
-    background: rgb(0, 0, 0);
+    background: #1e1a13;
 }
 
 .header-iguana h1 {
@@ -14,4 +14,8 @@ header {
 
 .iguana-header img {
     width: 100%;
+}
+
+.iguana-img {
+    width: 480px;
 }
