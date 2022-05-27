@@ -124,3 +124,10 @@ footer {
 .wrapper .linkedin:hover .tooltip:before {
     background: #0e76a8;
 }
+
+
+/*Portafolio page */
+
+.carousel-caption {
+    background: rgba(45, 43, 43, 0.525);
+}
