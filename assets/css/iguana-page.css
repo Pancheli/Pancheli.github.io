@@ -19,3 +19,15 @@ header {
 .iguana-img {
     width: 480px;
 }
+
+.iguana-icons-section {
+    background: #1e1a13;
+    height: 320px;
+}
+
+.iguana-icons-section h2 {
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
