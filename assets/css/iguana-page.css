@@ -27,9 +27,9 @@ header {
 
 .iguana-icons-section h2 {
     font-size: 40px;
-    padding-top: 50px;
+    padding-top: 45px;
     padding-bottom: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 45px;
 }
 
 .imgs-iguanas {
@@ -40,4 +40,23 @@ header {
 .iguana-photo img {
     width: 342px;
     height: 219px;
+}
+
+.footer-iguana {
+    height: 102px;
+    width: 100%;
+    background: #1e1a13;
+}
+
+.footer-iguana p {
+    padding-top: 42px;
+}
+
+.footer-iguana a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-iguana a:hover {
+    color: #e9be6f;
 }
