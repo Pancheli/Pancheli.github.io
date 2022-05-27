@@ -31,3 +31,13 @@ header {
     padding-bottom: 30px;
     margin-bottom: 50px;
 }
+
+.imgs-iguanas {
+    height: 348px;
+    margin-top: 50px;
+}
+
+.iguana-photo img {
+    width: 342px;
+    height: 219px;
+}
